@@ -1,0 +1,33 @@
+package sort;
+
+public class binaryint {
+
+	public static void main(String[] args) {
+		int a[]= {2,3,4,5,6};
+		int b=9,low=0,high=a.length-1;
+		int mid=(low+high)/2;
+		while(low<=high)
+		{
+			if (a[mid]==b)
+			{
+				System.out.println("Found at index "+mid);
+				break;
+			}
+			else if(a[mid]<b)
+			{
+				low=mid+1;
+			}
+			else
+			{
+				high=mid-1;
+			}
+			mid=(low+high)/2;
+			if(low>high)
+			{
+				System.out.println("Element not Found");
+			}
+		}
+
+	}
+
+}

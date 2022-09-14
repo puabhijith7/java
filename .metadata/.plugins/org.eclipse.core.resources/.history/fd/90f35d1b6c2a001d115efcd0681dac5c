@@ -1,0 +1,13 @@
+package acces_modifier;
+public class  AA{
+	 System.out.println(" ");
+ }
+
+public class Public {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

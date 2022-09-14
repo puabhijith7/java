@@ -1,0 +1,32 @@
+package day4;
+abstract class Animals
+{
+	abstract void cats();
+	abstract void dogs();
+}
+ class cats extends Animals
+{
+	public void cats()
+	{
+		System.out.println("Cats meow");
+	}
+}
+ class dogs extends Animals
+{
+	public void dogs()
+	{
+		System.out.println("dogs bark");
+	}
+}
+
+public class abstract2 {
+
+	public static void main(String[] args) {
+		cats s1=new cats();
+		dogs s2=new dogs();
+		s1.cats();
+		s2.dogs();
+
+	}
+
+}

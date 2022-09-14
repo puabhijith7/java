@@ -1,0 +1,16 @@
+package Public1;
+import Public.*;
+
+public class Publicclass1 {
+
+	
+		    {
+		        //Accessing class Demo1 from package A 
+		        Publicclass obj = new Publicclass (); //Compile Time Error  
+		        obj.msg();  //Compile Time Error  
+		    }
+		
+
+	}
+
+

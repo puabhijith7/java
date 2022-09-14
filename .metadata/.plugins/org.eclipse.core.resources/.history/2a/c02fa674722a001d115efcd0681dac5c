@@ -1,0 +1,11 @@
+package Public1;
+import Public.*;
+
+ class Privateclass1 extends Privateclass {
+
+	public static void main(String[] args) {
+		Privateclass1 obj=new Privateclass1();
+        obj.add(3,4);
+	}
+
+}
